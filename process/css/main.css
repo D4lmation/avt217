@@ -1,3 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body  {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+h1  {
+  font-family: "scatterplot-vf",sans-serif;
+  font-variation-settings: 'wght' 300, 'RAND' 0;
+}
