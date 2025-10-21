@@ -2,11 +2,11 @@
 /* CSS Document */
   body {
     text-align: center;
-   /* background:url("../img/Chocolate-Swirled-Pumpkin-Pie-FT-Recipe1125-eea16d2c9d424a6b82b4e9d118842e06.jpg") no-repeat center center fixed;
+    background:url(""file:///C:/Users/lilda/OneDrive/avt217/avt217/weekly/week9/week9/img/Chocolate-Swirled-Pumpkin-Pie-FT-Recipe1125-eea16d2c9d424a6b82b4e9d118842e06.jpg"") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
+    background-size: cover;
   }
 
 #container {
