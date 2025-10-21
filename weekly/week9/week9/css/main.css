@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../../../../../../Desktop/Chocolate-Swirled-Pumpkin-Pie-FT-Recipe1125-eea16d2c9d424a6b82b4e9d118842e06.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#container {
+margin-top: 40vh;
+  }
+
+  p {
+   font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+	  color: linen;
+	  font-size: 50px;
+	  
+  }
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+ background-image: none;
+		
+    }
+	  
+	#container {
+ margin-top: 20vh;
+    }
+	   
+    p {
+transform: none;
+    }
+	  
+	#cursive {
+  	}
+	  
+    .mobile-only {
+   	display:block;
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+  display: none;
+    }
+
+} /* don't forget to close the styles for mobile/
