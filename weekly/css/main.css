@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+	line-height: 1.7;
+	background-color: antiquewhite
+}
+#wrapper{
+	width: 90%;
+	padding: 0 5%;
+	float: left;
+	background-color: aliceblue;
+	float: left;
+}
+.weekly {
+	
+	float:left;
+	margin: 0 5%;
+}
+
+#project{
+	width: 45%;
+	float:left;
+}
+h1  {
+  font-family: "scatterplot-vf",sans-serif;
+  font-variation-settings: 'wght' 300, 'RAND' 0;
+}
+
+a:link{
+	color: darkred;
+		text-decoration: none;
+}
+
+a:visited {
+	color: crimson
+}
+a:hover {
+	color: deeppink;
+	text-decoration: underline;
+}
+a:active {
+	color: midnightblue
+}
+
+.demo{
+	color: dodgerblue;
+	   font-family: "scatterplot-vf",sans-serif;
+  font-variation-settings: 'wght' 300, 'RAND' 0;
+
+

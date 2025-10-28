@@ -2,5 +2,36 @@
 /* CSS Document */
 
 body {
-	background-color: blueviolet;
+	background-color: #edd491;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		margin-left:10%;
+	margin-right: 5%
+		
+}
+
+header {
+background-color:#8B9944;	
+	padding-bottom:20px;
+	
+}
+
+li{
+	
+	list-style-type: none;
+	display:inline;
+	margin-right: 15px;
+}
+h2, h3 {
+	color:brown
+	
+}
+p {
+	line-height: 1.5em;
+}
+.posttime {
+	color:crimson;
+	font-size: 0.7em;
+}
+dd {
+	line-height: 1.5em;
 }
