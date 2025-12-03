@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Velvet Velvet</title>
+
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+TAS:wght@100..400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	
+  <link rel="stylesheet" href="css/css homepage.css" />
+</head>
+	
+<body>
+
+  
+  <div class="page">
+
+    
+<header class="header">
+ <div class="logo-circle">
+  <a href="homepage.html">
+    <img src="Project Images/smile.png" alt="TVV logo">
+  </a>
+</div>
+
+  <h1 class="site-title">The Velvet Velvet</h1>
+
+
+  <div class="hamburger" id="hamburger">☰</div>
+</header>
+
+
+<nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+  <ul>
+    <li><a href="homepage.html">Home</a></li>
+	  <section class="favorites" id="home">
+  
+</section>
+    <li><a href="About.html">About</a></li>
+	  <footer class="footer" id="about">
+  
+</footer>
+    <li><a href="Exhibition.html">Exhibition</a></li>
+	  <section class="favorites" id="exhibition">
+  
+</section>
+    <li><a href="Shop.html">Shop</a></li>
+	  <footer class="footer" id="shop">
+  
+</footer>
+  </ul>
+</nav>
+
+
+
+    <section class="hero">
+      <div class="hero-image">
+        <img src="Project Images/download (4).jpg" alt="Museum exterior">
+
+        <span class="hero-tagline">Welcome to The Velvet Velvet</span>
+      </div>
+
+      <p class="hero-caption">
+        Come explore the home to some of the most impactful pieces of work in
+        the visual design history.
+      </p>
+    </section>
+
+    
+    <section class="feature-art">
+      <img src="Project Images/fish.png" alt="Fish artwork">
+    </section>
+
+    
+    <section class="favorites">
+      <h2>See some of our personal favorites</h2>
+      <div class="favorites-divider"></div>
+
+      <div class="favorites-row">
+        <div class="favorite-card">
+          <img src="Project Images/yea.jpg" alt="Vagabond poster">
+          <p>Vagabond</p>
+        </div>
+
+        <div class="favorite-card">
+          <img src="Project Images/food.jpg" alt="Ascend poster">
+          <p>Ascend</p>
+        </div>
+
+        <div class="favorite-card">
+          <img src="Project Images/name.jpg" alt="Synthetic Muse poster">
+          <p>Synthetic Muse</p>
+        </div>
+
+        <div class="favorite-card">
+          <img src="Project Images/yurr.jpg" alt="Tokyo Tower poster">
+          <p>Tokyo Tower</p>
+        </div>
+      </div>
+    </section>
+
+   
+    <footer class="footer">
+
+      <div class="footer-main">
+        
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img src="Project Images/smile.png" alt="TVV Logo">
+          </div>
+
+          <div class="footer-left-text">
+            <div class="footer-left-title">TVV</div>
+
+            <p class="footer-mini">
+              <span class="bold">Location:</span> 〒107-0062<br>
+              Tokyo Minato-ku, Akasaka 8-5-10
+            </p>
+            <p class="footer-mini">
+              <span class="bold">Hours:</span> 11am – 6pm
+            </p>
+          </div>
+        </div>
+
+        
+        <div class="footer-right">
+          <div class="footer-center">
+            <p class="footer-label">Socials</p>
+
+            <div class="footer-form">
+              <input type="email" placeholder="Email">
+              <div class="socials">
+                 <div><img src="Project Images/X.png" alt="TVV Logo"></div>                <div><img src="Project Images/insta.png" alt="TVV Logo"></div>  
+				  <div><img src="Project Images/youtube.png" alt="TVV Logo"></div>  
+				  <div><img src="Project Images/facebook.png" alt="TVV Logo"></div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>About</h4>
+              <a href="About.html">About us</a>
+              <a href="Exhibition.html">Exhibitions</a>
+              
+            </div>
+
+            <div class="footer-column">
+              <h4>Shop</h4>
+              <a href="Shop.html">Shop</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 The Velvet Velvet</span>
+      </div>
+    </footer>
+
+  </div><!-- /.page -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+
+    if (!hamburger || !navMenu) return;
+
+  
+    hamburger.addEventListener('click', function (event) {
+      event.stopPropagation();
+      navMenu.classList.toggle('open');
+    });
+
+    
+    document.addEventListener('click', function (event) {
+      if (!navMenu.contains(event.target) && !hamburger.contains(event.target)) {
+        navMenu.classList.remove('open');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
